@@ -5,7 +5,10 @@ Adding more canned food to the canner from [Vanilla Cooking Expanded](https://gi
 
 [Original code ~blatantly stolen~ used with permission](https://steamcommunity.com/sharedfiles/filedetails/?id=2947358933)
 
+
 # Objectives and Brainstorming
+
+Objectives in order.
 
 ## Canned Meals
 
@@ -32,3 +35,4 @@ Adding more canned food to the canner from [Vanilla Cooking Expanded](https://gi
     - +2 Ate canned fine meal
     - -6 Ate canned nutrient paste meal
       - "Why would someone make this?  I'd rather eat cooked bugs!"
+    - VCE has a ate canned food thought.  We can override that and set that to -2
