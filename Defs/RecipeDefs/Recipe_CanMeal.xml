@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-
-
-
-
 	<RecipeDef ParentName="CookMealBase">
 		<defName>Rosen_CanSimpleMeal</defName>
 		<label>can meal x1</label>
-		<description>Cook a simple meal in a steel can. Canning food extends its shelf life almost indefinitely.</description>
+		<description>Can a simple meal. Canning food extends its shelf life almost indefinitely.</description>
 		<jobString>Canning meals.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -42,5 +35,41 @@
 			<Rosen_CannedMeal>1</Rosen_CannedMeal>
 		</products>
 	</RecipeDef>
-	
+
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Rosen_CanSimpleMealBulk</defName>
+		<label>can meal x4</label>
+		<description>Can four simple meals. Canning food extends its shelf life almost indefinitely.</description>
+		<jobString>Canning meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>VCE_CanningMachine</li>					
+		</recipeUsers>	
+		<ingredientValueGetterClass>VanillaCookingExpanded.IngredientValueGetter_NutritionWithExtraIngredient</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MealSimple</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<Rosen_CannedMeal>1</Rosen_CannedMeal>
+		</products>
+	</RecipeDef>
 </Defs>

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="MealBase">
 		<defName>Rosen_CannedMeal</defName>
 		<label>canned meal</label>
-		<description>A meal cooked and secured in a steel can effectively extending shelf life indefinitely. \nCanned meals require more work to make and are heavier than other canned goods, and cannot be used as an ingredient. Compared to packaged survival meals, they are heavier, require more work to make, and provide slightly less nutrition</description>
+		<description>A cooked meal preserved in a steel can. \nCanned meals require more work to make and are heavier than other canned goods, and cannot be used as an ingredient. Compared to packaged survival meals, they are heavier, require more work to make, and provide slightly less nutrition</description>
 		<graphicData>
 			<texPath>Things/CannedMeals</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
